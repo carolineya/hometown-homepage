@@ -110,6 +110,7 @@ h4 {
     height: 240px;
     width: 360px;
     border-radius: 50%;
+    box-shadow: 0px 0px 5px #1D3557;
 }
 
 .activity {
