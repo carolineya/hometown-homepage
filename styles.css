@@ -1,0 +1,169 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    text-align: center;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #1D3557;
+}
+
+.hero-img {
+    background-image: url("images/oldtown.jpg");
+    background-size: cover;
+    height: 400px;
+    background-position: center;
+    padding-top: 170px;
+}
+
+.hero-text {
+    background-color: #1D3557;
+    color: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    border: 2px solid #FFFFFF;
+    display: block;
+    width: 500px;
+    height: 95px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-text-2 {
+    width: 520px;
+    height: 112px;
+    background-color: #457B9D;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.activities-container {
+    background-color: #F1FAEE;
+    height: 560px;
+    padding-top: 40px;
+}
+
+.guide-container {
+    background-color: #FFFFFF;
+    height: 560px;
+    padding-top: 80px;
+}
+
+.guide-card {
+    display: block;
+    box-shadow: 20px 15px 0px #1D3557;
+    background-color: #A8DADC;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.guide-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.guide-text {
+    padding-top: 20px;
+}
+
+.activities {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+    
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.img-activities {
+    height: 240px;
+    width: 360px;
+    border-radius: 50%;
+}
+
+.activity {
+    width: 360px;
+}
+
+.container{
+    position: relative;
+    width: 360px;
+    height: 240px;
+    border-radius: 50%;
+}
+
+.overlay-places {
+    background-image: url('images/pool.jpg');
+}
+
+.overlay-food {
+    background-image: url('images/walrus.jpg');
+}
+
+.overlay-nature {
+    background-image: url('images/grasslands.jpg');
+}
+
+.overlay-details{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 360px;
+    border-radius: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-size: cover;
+}
+
+.container:hover .overlay-places {
+    opacity: 1;
+}
+
+.container:hover .overlay-food {
+    opacity: 1;
+}
+
+.container:hover .overlay-nature {
+    opacity: 1;
+}
+
+#guide-img {
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #1D3557;
+    margin-right: 30px;
+}
